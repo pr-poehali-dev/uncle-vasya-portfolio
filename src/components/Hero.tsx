@@ -1,5 +1,4 @@
-
-import PhoneDisplay from './PhoneDisplay';
+import PhoneDisplay from "./PhoneDisplay";
 
 const Hero = () => {
   return (
@@ -12,8 +11,8 @@ const Hero = () => {
             <span className="text-purple-600 block">на связи</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Свяжитесь с нами прямо сейчас. Наши специалисты готовы помочь вам 
-            в любое время дня и ночи.
+            Свяжитесь с нами прямо сейчас. Наши специалисты готовы помочь вам в
+            любое время дня и ночи.
           </p>
         </div>
 
@@ -29,7 +28,7 @@ const Hero = () => {
             <p className="text-gray-600 text-sm">Круглосуточно</p>
           </div>
           <div className="text-center p-4">
-            <div className="text-2xl font-bold text-purple-600">< 1 мин</div>
+            <div className="text-2xl font-bold text-purple-600">&lt; 1 мин</div>
             <p className="text-gray-600 text-sm">Быстрый ответ</p>
           </div>
           <div className="text-center p-4">
