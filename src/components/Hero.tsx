@@ -18,7 +18,10 @@ const Hero = () => {
 
         {/* Номер телефона */}
         <div className="max-w-md mx-auto">
-          <PhoneDisplay phoneNumber="123456" label="Позвоните Дяде Васе" />
+          <PhoneDisplay
+            phoneNumber="+7 (999) 123-45-67"
+            label="Позвоните Дяде Васе"
+          />
         </div>
 
         {/* Дополнительная информация */}
